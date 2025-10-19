@@ -1,59 +1,58 @@
-IS-44-appWEB-ButkoSandra-FIOT-2025
-Online Beadwork Store ìFlames of Darknessî
-Relevance of the Topic
-With the rapid growth of e-commerce, more and more people prefer online shopping ó particularly in the handmade and artisan goods sector. The topic is relevant because beadwork jewelry is highly popular among young people and admirers of unique items, as it emphasizes individuality. An online beadwork store helps expand the audience of buyers, automate the sales process, and promote Ukrainian handmade products both domestically and internationally.
-Topic
-HTML document tags and attributes. Structural markup. GIT. GitHub. Working with repositories. Description of the logic of a personal web application.
-Purpose of the Project
-To simplify and speed up the process of browsing and selecting beadwork items, enable ordering and pre-ordering, and provide various payment and delivery options.
-Objectives
+Online Beadwork Store ‚ÄúFlames of Darkness‚Äù<br><br>
+Relevance of the Topic<br>
+With the rapid growth of e-commerce, more and more people prefer online shopping ‚Äî particularly in the handmade and artisan goods sector. The topic is relevant because beadwork jewelry is highly popular among young people and admirers of unique items, as it emphasizes individuality. An online beadwork store helps expand the audience of buyers, automate the sales process, and promote Ukrainian handmade products both domestically and internationally.<br><br>
+Topic<br>
+HTML document tags and attributes. Structural markup. GIT. GitHub. Working with repositories. Description of the logic of a personal web application.<br><br>
+Purpose of the Project<br>
+To simplify and speed up the process of browsing and selecting beadwork items, enable ordering and pre-ordering, and provide various payment and delivery options.<br><br>
+Objectives<br>
 * Analyze the needs of the target audience.
 * Develop a user-friendly and visually appealing design and interface.
 * Implement a product catalog with photos, descriptions, and prices.
 * Create a shopping cart and checkout system.
 * Integrate payment and delivery services.
 * Develop an admin panel for managing products and orders.
-* Implement a feedback and rating system to increase customer trust.
-Object of the Work
-An e-commerce information system for selling beadwork products.
-Subject of the Work
-Software (online store) that manages sales, product inventory, orders, and communication with clients.
-Business Logic
-A user must log in to place an order or make a purchase. The cart must be paid for within 24 hours of order placement. The user can set the date and time of delivery and optionally add a note to the order. There are discount features for regular customers and holiday promo codes available in the userís account.
+* Implement a feedback and rating system to increase customer trust.<br>
+Object of the Work<br>
+An e-commerce information system for selling beadwork products.<br><br>
+Subject of the Work<br>
+Software (online store) that manages sales, product inventory, orders, and communication with clients.<br><br>
+Business Logic<br>
+A user must log in to place an order or make a purchase. The cart must be paid for within 24 hours of order placement. The user can set the date and time of delivery and optionally add a note to the order. There are discount features for regular customers and holiday promo codes available in the user‚Äôs account.<br><br>
 
-Main Functionality
-Home Page
-When loading the web application, the user can log in or register.
+Main Functionality<br>
+Home Page<br>
+When loading the web application, the user can log in or register.<br>
 After login, the home page is displayed, allowing users to:
 * Select a category of products and view it on a separate page.
 * Swipe through product photos.
-* Read about the storeís history and the artisan.
-* Access store information, including contact details.
-The home page includes three semantic sections:
-1. Header ó contains a search bar and user options (profile/login/registration).
-2. Main ó divided into three sections:
-o Categories (to show the storeís assortment).
-o Product gallery (to attract the userís interest).
+* Read about the store‚Äôs history and the artisan.
+* Access store information, including contact details.<br>
+The home page includes three semantic sections:<br>
+1. Header ‚Äî contains a search bar and user options (profile/login/registration).
+2. Main ‚Äî divided into three sections:
+o Categories (to show the store‚Äôs assortment).
+o Product gallery (to attract the user‚Äôs interest).
 o Store history (about the shop and artisan, and how the products are made).
-3. Footer ó includes contact information, delivery details, and other info.
-Categories Page
-When a user selects a category, they are redirected to the ìCategoriesî page.
-It contains:
+3. Footer ‚Äî includes contact information, delivery details, and other info.<br>
+Categories Page<br>
+When a user selects a category, they are redirected to the ‚ÄúCategories‚Äù page.<br>
+It contains:<br>
 * The category name under the header.
-* Two sections:
-1. Search ó left block with filters and search criteria.
-2. Products ó right block displaying product names and prices.
-Product Page
-When clicking a product, the user is redirected to the ìProductî page.
-It includes:
-* Product name (below the header).
-* Photo, price, delivery options, and description with characteristics.
-Registration / Authorization
-By clicking ìRegisterî or ìLoginî in the header, the user is redirected to the respective form page, which must be filled out to proceed.
-User Account
-After registration or login, a user gets access to their account with:
-1. Personal Data ó left block with personal info (name, phone, email, and optional photo).
-2. Orders ó right block showing the list of previous orders.
+* Two sections:<br>
+1. Search ‚Äî left block with filters and search criteria.<br>
+2. Products ‚Äî right block displaying product names and prices.<br>
+Product Page<br>
+When clicking a product, the user is redirected to the ‚ÄúProduct‚Äù page.<br>
+It includes:<br>
+* Product name (below the header).<br>
+* Photo, price, delivery options, and description with characteristics.<br>
+Registration / Authorization<br>
+By clicking ‚ÄúRegister‚Äù or ‚ÄúLogin‚Äù in the header, the user is redirected to the respective form page, which must be filled out to proceed.<br>
+User Account<br>
+After registration or login, a user gets access to their account with:<br>
+1. Personal Data ‚Äî left block with personal info (name, phone, email, and optional photo).
+2. Orders ‚Äî right block showing the list of previous orders.
 
 Functional Requirements
 1. Guests can freely visit the website.
@@ -71,7 +70,7 @@ Functional Requirements
 Non-Functional Requirements
 1. The site supports at least 1,000 users simultaneously.
 2. The interface is intuitive and easy to use.
-3. The system ensures data security ó client data is confidential, passwords are hashed.
+3. The system ensures data security ‚Äî client data is confidential, passwords are hashed.
 4. The site works on both desktop and mobile devices.
 
 Use Case Diagram
