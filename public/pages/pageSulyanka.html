@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flames of Darkness</title>
+    <link rel="stylesheet" href="../styles/categories.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div>
+            <a href="../index.html" style="color:#FFFFFF; font-size: xx-large; text-decoration: none;">Flames of Darkness</a>
+
+        </div>
+        <div style="display: flex; gap: 10px; float:right;">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Пошук...">
+            </div>
+            <button class="searchButton">Search</button>
+
+            <button class="RL-item" id="RL">Register/Login</button>
+        </div>
+    </header>
+
+    <div class="search-results"></div>
+    <div class="title">
+        <h2>Силянки</h2>
+    </div>
+
+    <div class="general">
+        <!--Search field-->
+        <div class="dropdown">
+            <button class="buttonF">Фільтри</button>
+            <div class="search-field">
+
+                <div class="price-field">
+                    <form>
+                        <fieldset>
+                            <legend>Ціна</legend>
+                            <button class="button1" type="button" name="search" value="increase-prise">Від меншої до більшої</button>
+                            <button class="button1" type="button" name="search" value="reduced-price">Від більшої до меншої</button>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="field">
+                    <form>
+                        <fieldset>
+                            <legend class="name-list">Тип виробу</legend>
+                            <div class="list">
+                                <input type="checkbox" name="typeProduct" value="thin">Вузькі (до 5 см)<br>
+                                <input type="checkbox" name="typeProduct" value="wide">Широкі<br>
+                            </div>
+                            <button class="button" type="button">Показати</button>
+                        </fieldset>
+                    </form>
+                </div>
+
+
+                <div class="field">
+                    <form>
+                        <fieldset>
+                            <legend class="name-list">Колір</legend>
+                            <div class="list">
+                                <input type="checkbox" name="color" value="yellow">Жовтий<br>
+                                <input type="checkbox" name="color" value="green">Зелений<br>
+                                <input type="checkbox" name="color" value="blue">Синій<br>
+                                <input type="checkbox" name="color" value="red">Червоний<br>
+                            </div>
+                            <button class="button" type="button">Показати</button>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="field">
+                    <form>
+                        <fieldset>
+                            <legend class="name-list">Наявність</legend>
+                            <div class="list">
+                                <input type="checkbox" name="exist" value="positive">В наявності<br>
+                                <input type="checkbox" name="exist" value="negative">На замовлення<br>
+                            </div>
+                            <button class="button" type="button">Показати</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Field of product-->
+        <div class="all-product" id="productsContainer" data-type="sulyanka"></div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="Info">
+            Контакти:<br>
+            +380 (67) 925 07 40<br>
+            +380 (67) 754 21 61<br>
+        </div>
+        <div class="Info">
+            Місто розташування:<br>
+            <a href="https://www.google.com/maps/place/%D0%91%D1%96%D0%BB%D0%B0+%D0%A6%D0%B5%D1%80%D0%BA%D0%B2%D0%B0,+%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+09100/@49.8056066,30.0395847,12z/data=!3m1!4b1!4m6!3m5!1s0x40d3423e37227b9d:0x84e311f8582cc6e8!8m2!3d49.7967712!4d30.1278405!16zL20vMDQ1N21y?entry=ttu&g_ep=EgoyMDI1MDkyOC4wIKXMDSoASAFQAw%3D%3D"
+                style="color: #FFFFFF; text-decoration: none;">
+                Біла Церква, Київська обл.
+            </a>
+        </div>
+        <div class="Info">
+            Social media<br>
+            Instagam:<br>
+            <a href="https://www.instagram.com/antonyuklena?igsh=MXI4ZzJpYjk0bmZiMQ=="
+                style="color:#FFFFFF; text-decoration: none;">@antonyuklena</a>
+        </div>
+    </div>
+
+<script src="../scripts/pageBraslet.js"></script>
+</body>
+
+</html>
