@@ -84,6 +84,11 @@ table, th, td {
     vertical-align: middle;
 }
 
+.button:hover {
+    background-color: #262EA1;
+    color: #000000;
+}
+
 .create {
     width: 20%;
     margin-left: auto;
@@ -120,13 +125,13 @@ table, th, td {
     color: #101661;
     border: 3px solid #5d5d63;
     border-radius: 20px;
-    width: 500px; /* ширина форми */
+    width: 500px; 
     max-width: 90%;
-    padding: 30px; /* відступи всередині форми */
+    padding: 30px; 
     z-index: 1000;
     display: flex;
     flex-direction: column;
-    gap: 15px; /* проміжки між елементами */
+    gap: 15px;
 }
 
 /* --- Заголовок форми --- */
@@ -141,7 +146,7 @@ table, th, td {
 .form-container input[type="text"],
 .form-container input[type="number"],
 .form-container textarea {
-    width: 90%; /* трохи менше, щоб не торкалось країв */
+    width: 90%; 
     padding: 8px 10px;
     border-radius: 10px;
     border: 1px solid #5d5d63;
@@ -159,7 +164,7 @@ table, th, td {
 
 /* --- Кнопки --- */
 .form-container button {
-    width: 45%; /* дві кнопки поруч */
+    width: 45%;
     padding: 10px;
     font-weight: bold;
     color: #101661;
@@ -172,7 +177,7 @@ table, th, td {
 
 .form-container button:hover {
     background-color: #262EA1;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 /* --- Контейнер кнопок --- */

@@ -107,6 +107,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid black;
 }
 
 .include {
@@ -117,13 +118,13 @@ body {
 }
 
 .info {
-    /* margin: 3%; */
     width: 85%;
     background: #707077;
     color: #FFFFFF;
     border-radius: 20px;
     padding: 1%;
     font-size: 110%;
+    border: 2px solid black;
 }
 
 .order {
@@ -133,7 +134,7 @@ body {
     border-radius: 20px;
     padding: 1%;
     font-size: 110%;
-
+    border: 2px solid black;
 }
 
 .title {
@@ -150,6 +151,7 @@ body {
     padding: 1%;
     margin: 2%;
     border-radius: 20px;
+    border: 2px solid black;
 }
 
 .titleorder {
@@ -167,3 +169,25 @@ body {
     color: #000000;
 }
 
+.button {
+    background: #707077;
+    margin: 3%;
+    border-radius: 20px;
+    font-size: 110%;
+    font-weight: bold;
+    width: 40%;
+    height: 80px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.button:hover {
+    background-color: #262EA1;
+    color: #FFFFFF;
+}

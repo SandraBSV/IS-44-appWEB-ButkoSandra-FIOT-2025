@@ -59,10 +59,24 @@ typeButtons.forEach((button, i) => {
 
 // Кнопка Register/Login
 const myButton = document.querySelector('#RL');
-const destinationUrl = 'pages/pageRegister.html';
 myButton.addEventListener('click', () => {
-    window.location.href = destinationUrl;
+  const role = localStorage.getItem('userRole');
+  if (!role) {
+    // не залогінений — йдемо на реєстрацію/логін
+    window.location.href = 'pages/pageRegister.html';
+    return;
+  }
+
+  if (Number(role) === 1) {
+    // адмін
+    window.location.href = '/admin/index.html';
+  } else {
+    // звичайний користувач
+    window.location.href = '/pages/pageCabinet.html';
+  }
 });
+
+
 
 
 // Пошук продуктів

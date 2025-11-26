@@ -57,6 +57,30 @@ table, th, td {
     vertical-align: middle;
 }
 
+.button {
+    background: #707077;
+    margin: 3%;
+    border-radius: 20px;
+    font-size: 110%;
+    font-weight: bold;
+    width: 90%;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    color: #101661;
+}
+
+.button:hover {
+    background-color: #262EA1;
+    color: #000000;
+}
+
 .types-item a {
     font-size: 130%;
     font-weight: bold;
